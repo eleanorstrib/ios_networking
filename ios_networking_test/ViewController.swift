@@ -16,16 +16,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let imageURL = NSURL(string:"https://upload.wikimedia.org/wikipedia/commons/6/6e/Golde33443.jpg")
-        NSURLSession.sharedSession()
-        
+        let imageURL = NSURL(string: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Golde33443.jpg")!
+        let task = NSURLSession.sharedSession().dataTaskWithURL(imageURL) { (data, response, error) in
+            if error == nil {
+                let displayImage = UIImage(data:data!)
+                self.networkImage.image = displayImage
+            }
+        }
+        task.resume()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 
