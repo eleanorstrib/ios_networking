@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD5EAFA41C6D094E00083FB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5EAFA31C6D094E00083FB2 /* AppDelegate.swift */; };
+		FD5EAFA61C6D094E00083FB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5EAFA51C6D094E00083FB2 /* ViewController.swift */; };
+		FD5EAFA91C6D094E00083FB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5EAFA71C6D094E00083FB2 /* Main.storyboard */; };
+		FD5EAFAB1C6D094E00083FB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD5EAFAA1C6D094E00083FB2 /* Assets.xcassets */; };
+		FD5EAFAE1C6D094E00083FB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5EAFAC1C6D094E00083FB2 /* LaunchScreen.storyboard */; };
+		FD5EAFB91C6D094E00083FB2 /* ios_networking_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5EAFB81C6D094E00083FB2 /* ios_networking_testTests.swift */; };
+		FD5EAFC41C6D094F00083FB2 /* ios_networking_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5EAFC31C6D094F00083FB2 /* ios_networking_testUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD5EAFB51C6D094E00083FB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD5EAF981C6D094D00083FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD5EAF9F1C6D094D00083FB2;
+			remoteInfo = ios_networking_test;
+		};
+		FD5EAFC01C6D094E00083FB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD5EAF981C6D094D00083FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD5EAF9F1C6D094D00083FB2;
+			remoteInfo = ios_networking_test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD5EAFA01C6D094D00083FB2 /* ios_networking_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_networking_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD5EAFA31C6D094E00083FB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD5EAFA51C6D094E00083FB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD5EAFA81C6D094E00083FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD5EAFAA1C6D094E00083FB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD5EAFAD1C6D094E00083FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD5EAFAF1C6D094E00083FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD5EAFB41C6D094E00083FB2 /* ios_networking_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_networking_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD5EAFB81C6D094E00083FB2 /* ios_networking_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_networking_testTests.swift; sourceTree = "<group>"; };
+		FD5EAFBA1C6D094E00083FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD5EAFBF1C6D094E00083FB2 /* ios_networking_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_networking_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD5EAFC31C6D094F00083FB2 /* ios_networking_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_networking_testUITests.swift; sourceTree = "<group>"; };
+		FD5EAFC51C6D094F00083FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD5EAF9D1C6D094D00083FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5EAFB11C6D094E00083FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5EAFBC1C6D094E00083FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD5EAF971C6D094D00083FB2 = {
+			isa = PBXGroup;
+			children = (
+				FD5EAFA21C6D094D00083FB2 /* ios_networking_test */,
+				FD5EAFB71C6D094E00083FB2 /* ios_networking_testTests */,
+				FD5EAFC21C6D094F00083FB2 /* ios_networking_testUITests */,
+				FD5EAFA11C6D094D00083FB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD5EAFA11C6D094D00083FB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD5EAFA01C6D094D00083FB2 /* ios_networking_test.app */,
+				FD5EAFB41C6D094E00083FB2 /* ios_networking_testTests.xctest */,
+				FD5EAFBF1C6D094E00083FB2 /* ios_networking_testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD5EAFA21C6D094D00083FB2 /* ios_networking_test */ = {
+			isa = PBXGroup;
+			children = (
+				FD5EAFA31C6D094E00083FB2 /* AppDelegate.swift */,
+				FD5EAFA51C6D094E00083FB2 /* ViewController.swift */,
+				FD5EAFA71C6D094E00083FB2 /* Main.storyboard */,
+				FD5EAFAA1C6D094E00083FB2 /* Assets.xcassets */,
+				FD5EAFAC1C6D094E00083FB2 /* LaunchScreen.storyboard */,
+				FD5EAFAF1C6D094E00083FB2 /* Info.plist */,
+			);
+			path = ios_networking_test;
+			sourceTree = "<group>";
+		};
+		FD5EAFB71C6D094E00083FB2 /* ios_networking_testTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD5EAFB81C6D094E00083FB2 /* ios_networking_testTests.swift */,
+				FD5EAFBA1C6D094E00083FB2 /* Info.plist */,
+			);
+			path = ios_networking_testTests;
+			sourceTree = "<group>";
+		};
+		FD5EAFC21C6D094F00083FB2 /* ios_networking_testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD5EAFC31C6D094F00083FB2 /* ios_networking_testUITests.swift */,
+				FD5EAFC51C6D094F00083FB2 /* Info.plist */,
+			);
+			path = ios_networking_testUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD5EAF9F1C6D094D00083FB2 /* ios_networking_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD5EAFC81C6D094F00083FB2 /* Build configuration list for PBXNativeTarget "ios_networking_test" */;
+			buildPhases = (
+				FD5EAF9C1C6D094D00083FB2 /* Sources */,
+				FD5EAF9D1C6D094D00083FB2 /* Frameworks */,
+				FD5EAF9E1C6D094D00083FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ios_networking_test;
+			productName = ios_networking_test;
+			productReference = FD5EAFA01C6D094D00083FB2 /* ios_networking_test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD5EAFB31C6D094E00083FB2 /* ios_networking_testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD5EAFCB1C6D094F00083FB2 /* Build configuration list for PBXNativeTarget "ios_networking_testTests" */;
+			buildPhases = (
+				FD5EAFB01C6D094E00083FB2 /* Sources */,
+				FD5EAFB11C6D094E00083FB2 /* Frameworks */,
+				FD5EAFB21C6D094E00083FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD5EAFB61C6D094E00083FB2 /* PBXTargetDependency */,
+			);
+			name = ios_networking_testTests;
+			productName = ios_networking_testTests;
+			productReference = FD5EAFB41C6D094E00083FB2 /* ios_networking_testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD5EAFBE1C6D094E00083FB2 /* ios_networking_testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD5EAFCE1C6D094F00083FB2 /* Build configuration list for PBXNativeTarget "ios_networking_testUITests" */;
+			buildPhases = (
+				FD5EAFBB1C6D094E00083FB2 /* Sources */,
+				FD5EAFBC1C6D094E00083FB2 /* Frameworks */,
+				FD5EAFBD1C6D094E00083FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD5EAFC11C6D094E00083FB2 /* PBXTargetDependency */,
+			);
+			name = ios_networking_testUITests;
+			productName = ios_networking_testUITests;
+			productReference = FD5EAFBF1C6D094E00083FB2 /* ios_networking_testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD5EAF981C6D094D00083FB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = eleanorstrib;
+				TargetAttributes = {
+					FD5EAF9F1C6D094D00083FB2 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					FD5EAFB31C6D094E00083FB2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FD5EAF9F1C6D094D00083FB2;
+					};
+					FD5EAFBE1C6D094E00083FB2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FD5EAF9F1C6D094D00083FB2;
+					};
+				};
+			};
+			buildConfigurationList = FD5EAF9B1C6D094D00083FB2 /* Build configuration list for PBXProject "ios_networking_test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD5EAF971C6D094D00083FB2;
+			productRefGroup = FD5EAFA11C6D094D00083FB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD5EAF9F1C6D094D00083FB2 /* ios_networking_test */,
+				FD5EAFB31C6D094E00083FB2 /* ios_networking_testTests */,
+				FD5EAFBE1C6D094E00083FB2 /* ios_networking_testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD5EAF9E1C6D094D00083FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5EAFAE1C6D094E00083FB2 /* LaunchScreen.storyboard in Resources */,
+				FD5EAFAB1C6D094E00083FB2 /* Assets.xcassets in Resources */,
+				FD5EAFA91C6D094E00083FB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5EAFB21C6D094E00083FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5EAFBD1C6D094E00083FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD5EAF9C1C6D094D00083FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5EAFA61C6D094E00083FB2 /* ViewController.swift in Sources */,
+				FD5EAFA41C6D094E00083FB2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5EAFB01C6D094E00083FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5EAFB91C6D094E00083FB2 /* ios_networking_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5EAFBB1C6D094E00083FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5EAFC41C6D094F00083FB2 /* ios_networking_testUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD5EAFB61C6D094E00083FB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD5EAF9F1C6D094D00083FB2 /* ios_networking_test */;
+			targetProxy = FD5EAFB51C6D094E00083FB2 /* PBXContainerItemProxy */;
+		};
+		FD5EAFC11C6D094E00083FB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD5EAF9F1C6D094D00083FB2 /* ios_networking_test */;
+			targetProxy = FD5EAFC01C6D094E00083FB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD5EAFA71C6D094E00083FB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD5EAFA81C6D094E00083FB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD5EAFAC1C6D094E00083FB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD5EAFAD1C6D094E00083FB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD5EAFC61C6D094F00083FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD5EAFC71C6D094F00083FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD5EAFC91C6D094F00083FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ios_networking_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eleanorstribling.ios-networking-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD5EAFCA1C6D094F00083FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ios_networking_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eleanorstribling.ios-networking-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD5EAFCC1C6D094F00083FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ios_networking_testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eleanorstribling.ios-networking-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios_networking_test.app/ios_networking_test";
+			};
+			name = Debug;
+		};
+		FD5EAFCD1C6D094F00083FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ios_networking_testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eleanorstribling.ios-networking-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios_networking_test.app/ios_networking_test";
+			};
+			name = Release;
+		};
+		FD5EAFCF1C6D094F00083FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ios_networking_testUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eleanorstribling.ios-networking-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ios_networking_test;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FD5EAFD01C6D094F00083FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ios_networking_testUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eleanorstribling.ios-networking-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ios_networking_test;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD5EAF9B1C6D094D00083FB2 /* Build configuration list for PBXProject "ios_networking_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5EAFC61C6D094F00083FB2 /* Debug */,
+				FD5EAFC71C6D094F00083FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD5EAFC81C6D094F00083FB2 /* Build configuration list for PBXNativeTarget "ios_networking_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5EAFC91C6D094F00083FB2 /* Debug */,
+				FD5EAFCA1C6D094F00083FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD5EAFCB1C6D094F00083FB2 /* Build configuration list for PBXNativeTarget "ios_networking_testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5EAFCC1C6D094F00083FB2 /* Debug */,
+				FD5EAFCD1C6D094F00083FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD5EAFCE1C6D094F00083FB2 /* Build configuration list for PBXNativeTarget "ios_networking_testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5EAFCF1C6D094F00083FB2 /* Debug */,
+				FD5EAFD01C6D094F00083FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD5EAF981C6D094D00083FB2 /* Project object */;
+}
