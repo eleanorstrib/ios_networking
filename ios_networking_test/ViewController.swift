@@ -10,7 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var imagePlaceholder: UILabel!
     @IBOutlet weak var networkImage: UIImageView!
     
     override func viewDidLoad() {
@@ -20,7 +19,7 @@ class ViewController: UIViewController {
         let task = NSURLSession.sharedSession().dataTaskWithURL(imageURL) { (data, response, error) in
             if error == nil {
                 let displayImage = UIImage(data:data!)
-                self.networkImage.image = displayImage
+                    self.networkImage.image = displayImage
             }
         }
         task.resume()
